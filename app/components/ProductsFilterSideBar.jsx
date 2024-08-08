@@ -36,6 +36,7 @@ const ProductsFilterSideBar = ({mask, setMask, products, filteredProducts, setFi
         <div className="w-full h-full" style={{
             borderRight: '1px solid lightgray'
           }}>
+            <p className="text-[#999] text-xs">the api does not support filtering and pagination together, so when you filter categories you have to look for the products in a certain page, they won't appear in the first page. for example you can find Laptops in page 9</p>
         {
           checkboxes.map((item, ind) => {
             return (

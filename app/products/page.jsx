@@ -45,7 +45,7 @@ const Page = () => {
             },
           }}
         >
-        <Pagination current={currentPage} pageSize={9} total={100} showSizeChanger={false} onChange={changePage} />
+        <Pagination current={currentPage} pageSize={9} total={193} showSizeChanger={false} onChange={changePage} />
       </ConfigProvider>
       </div>
     </div>
